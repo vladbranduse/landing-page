@@ -1,0 +1,160 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#hero-section {
+    background-color: #1F2937;
+}
+
+#header-logo {
+    color: #F9FAF8;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+#header-links {
+    color: #F9FAF8;
+    position: relative;
+    bottom: 29px;
+    right: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: start;
+    gap: 20px;
+}
+
+#hero-main-text {
+    color: #F9FAF8;
+    position: relative;
+    left: 20px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+#button1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+
+textarea {
+    background-color: rgb(114, 124, 131);
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+    padding: 100px 150px;
+    width: 20%;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+#information-header-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#illustrations-images-subtexts-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-image {
+    color: white;
+    border-color:#3882F6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    color: #1F2937;
+    font-family: italic;
+    font-size: 36px;
+    text-align: center;
+}
+
+#thor {
+    position: relative;
+    left: 1000px;
+}
+
+#registration {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 70%;
+}
+
+#registration-main-text{
+    position: relative;
+    top: 20px;
+}
+
+#registration-secondary-text{
+    position: relative;
+    top: 20px;
+}
+
+#button2 {
+    color: #F9FAF8;
+    background-color: transparent;
+    position: relative;
+    left: 650px;
+    bottom: 50px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    color:#F9FAF8;
+    background-color: #1f2937;
+    text-align: center;
+}
